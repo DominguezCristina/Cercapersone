@@ -112,6 +112,11 @@ transform:scale(1.1);
 transform:rotate(10deg);*/
 }
 
+.flex
+{
+display: flex;
+justify-content: space-between;  
+}
 
 #nav
 {
@@ -121,12 +126,45 @@ color:black;
 text-decoration:none;
 color:black;
 margin-top:26px;
-margin-right:-305px;
 font-size:250%;
 font-family:Neue Montreal;
 text-align:center;
 }
 
+.accordion {
+font-size:250%;
+font-family:Neue Montreal;
+font-weight:normal;
+margin-top:30px;
+white-space:pre;   
+cursor: pointer;
+border: none;
+text-align: left;
+outline: none;
+transition: 0.4s;
+background-color:black;
+color:#77aa89;
+border-bottom:2px solid #77aa89;
+padding-top:0px;
+padding-bottom:4px; 
+width:100%;
+}
+
+.active, .accordion:hover 
+{
+background-color:black;
+color:#77aa89; 
+}
+
+.panel 
+{
+  margin-top:30px;
+  display: none;
+  background-color:black;
+  overflow: hidden;
+}
+
+/*
 h2
 {
 font-size:250%;
@@ -135,13 +173,16 @@ font-weight:normal;
 margin-top:100px;
 white-space:pre;  
 }
+*/
 
+/*
 .border
 {
 border-bottom:2px solid #77aa89;
 padding-top:0px;
 padding-bottom:4px;	
 }
+*/
 
 .griglia
 {
@@ -155,7 +196,6 @@ margin-bottom:10px;
 
 .colonna_1
 {
-/*outline: 1px red solid;*/
 grid-column:span 1;
 min-height:10px;
 }
@@ -231,7 +271,7 @@ white-space:pre;
 .imgstatistica
 {
 width:90%;
-margin-left:-30px;
+margin-left:-10px;
 }
 
 .numeri
@@ -263,6 +303,11 @@ margin-bottom: 30px;
 a
 {
 color:#77aa89;
+}
+
+.colophon
+{
+margin-top:150px;  
 }
 
 @media (max-width:600px) 
