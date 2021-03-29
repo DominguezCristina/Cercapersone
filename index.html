@@ -5,25 +5,47 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cercapersone</title>
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
-
 </head>
 
 <body>
 
+<!--Testata-->
 <div class="flex">
 	<h1 class="colonna_3">Cercapersone</h1>
 	<h1 class="colonna_3">Atlante tecnologico</h1>
 	<div><a id="nav" class="border_radius" href="#Indice">Indice</a></div>
 </div>
-<!--
-<div class="griglia">
-	<h1 class="colonna_3">Cercapersone</h1>
-	<h1 class="colonna_3">Atlante tecnologico</h1>
-	<div><a id="nav" class="border_radius" href="#Indice">Indice</a></div>
+
+<div>
+	<br>
+	<br>
+	<br>
+	<br>
 </div>
--->
+
+<!--Cover-->
+<audio id="vibrazione_audio" loop>
+	<source src="Audio/Vibrazione.mp3"></source>	
+</audio>
+
+<audio id="luce_audio" loop>
+	<source src="Audio/Tititiii.wav"></source>	
+</audio>
+
+<audio id="ibrido_audio" loop>
+	<source src="Audio/Particolare.mp3"></source>	
+</audio>
+
+<div class="numeridisplay vibrazione">800-555-2966</div>
+
+<div class="numeridisplay luce">   1 PAGE   </div>
 
 <div class="vibrazione">	
+	<div class="numeridisplay ibrido">  123-4567  </div>
+</div>
+
+<!--
+<div class="vibrazione">
 <table style="width:100%" class="numeridisplay" >
   <tr>
     <td>225</td>
@@ -39,8 +61,8 @@
     <td>225</td>
     <td>-</td>
     <td>111</td>
-    <td></td>
-    <td></td>
+    <td>-</td>
+    <td>2222</td>
   </tr>
 </table>
 <div class="luce"></div>
@@ -53,6 +75,7 @@
     <td>2849</td>
   </tr>
 </table>
+-->
 
 <div>
 	<br>
@@ -61,7 +84,10 @@
 	<br>
 </div>
 
-<button class="accordion">Introduzione</button>
+<!--Introduzione-->
+<button class="accordion title">
+    <div class="arrow">Introduzione<img src="img/arrow-down.svg" height="35" width="35"></div>
+</button>
 <div class="panel">
 	<div class="griglia">
 		<div class="colonna_2">
@@ -78,8 +104,11 @@
 	</div>
 </div>
 
-<button class="accordion">Storia e funzionamento</button>
-<div class="panel">
+<!--Storia e funzionamento-->
+<button class="accordion title">
+    <div class="arrow">Storia e funzionamento<img src="img/arrow-down.svg" height="35" width="35"></div>
+</button>
+<div class="panel">	
 	<div class="griglia">
 		<div class="colonna_2">
 			<img src="IMG/ALGROS2_bitmap.jpg" class="img1">
@@ -103,7 +132,10 @@ ingegnere statunitense,
 	</div>
 </div>
 
-<button class="accordion">Diffusione</button>
+<!--Diffusione-->
+<button class="accordion title">
+    <div class="arrow">Diffusione<img src="img/arrow-down.svg" height="35" width="35"></div>
+</button>
 <div class="panel">	
 	<div class="griglia">
 		<div class="colonna_2">
@@ -123,7 +155,10 @@ ingegnere statunitense,
 	</div>
 </div>	
 
-<button class="accordion">Funzione del dispositivo</button>
+<!--Funzione del dispositivo-->
+<button class="accordion title">
+    <div class="arrow">Funzione del dispositivo<img src="img/arrow-down.svg" height="35" width="35"></div>
+</button>
 <div class="panel">	
 	<div class="griglia">
 		<div class="colonna_2">
@@ -143,7 +178,10 @@ ingegnere statunitense,
 	</div>	
 </div>
 
-<button class="accordion">Declino di utilizzo</button>
+<!--Declino di utilizzo-->
+<button class="accordion title">
+    <div class="arrow">Declino di utilizzo<img src="img/arrow-down.svg" height="35" width="35"></div>
+</button>
 <div class="panel">
 	<div class="griglia">
 		<div class="colonna_2">
@@ -160,7 +198,10 @@ ingegnere statunitense,
 	</div>
 </div>	
 
-<button class="accordion">Tipologie di cercapersone</button>
+<!--Tipologia di cercapersone-->
+<button class="accordion title">
+    <div class="arrow">Tipologie di cercapersone<img src="img/arrow-down.svg" height="35" width="35"></div>
+</button>
 <div class="panel">
 	<div class="griglia">
 		<div class="colonna_2">
@@ -184,8 +225,7 @@ ingegnere statunitense,
 			</div>
 
 		<div class="colonna_2">
-			<h3>Avvisatori acustici o cercapersone 
-			<br>a un solo tono (unidirezionale)</h3>
+			<h3>Avvisatori acustici o cercapersone a un solo tono (unidirezionale)</h3>
 			
 			<p class="paragrafobase">
 			Questa tipologia di cercapersone era la forma più semplice e meno costosa, in inglese vengono chiamati “beepers” perché in origine emettevano un segnale acustico simile al “bip”, in seguito usavano altre forme di avviso come segnali audio, vibrazioni, illuminazioni o combinati tra loro. 
@@ -379,14 +419,14 @@ ingegnere statunitense,
 			</p>
 		</div>	
 		<div class="colonna_3">
-			<h3><br></h3>
+			<h3 class="annulla">Tipologie di trasmissione</h3>
 			<p class="paragrafobase">
 			&#8592; | &#8594;<br>
 			Trasmissione half–duplex (bidirezionale alternata), permette una comunicazione in entrambe le direzioni, ma con la possibilità di usare una direzione per volta.
 			</p>
 		</div>
 		<div class="colonna_3">
-			<h3><br></h3>
+			<h3 class="annulla">Tipologie di trasmissione</h3>
 			<p class="paragrafobase">
 			&#8596;	<br>
 			Trasmissione full–duplex (bidirezionale simultanea), permette una comunicazione in entrambe le direzioni in maniera simultanea (come ad esempio il cellulare).
@@ -395,7 +435,10 @@ ingegnere statunitense,
 	</div>
 </div>	
 
-<button class="accordion">Sicurezza</button>
+<!--Sicurezza di rete-->
+<button class="accordion title">
+    <div class="arrow">Sicurezza di rete<img src="img/arrow-down.svg" height="35" width="35"></div>
+</button>
 <div class="panel">
 	<div class="griglia">
 		<div class="colonna_2">
@@ -411,22 +454,240 @@ ingegnere statunitense,
 	</div>
 </div>	
 
-<button class="accordion">Codice alfabetico</button>
+<!--Codice alfabetico-->
+<button class="accordion title">
+    <div class="arrow">Codice alfabetico<img src="img/arrow-down.svg" height="35" width="35"></div>
+</button>
 <div class="panel">
 	<div class="griglia">
+
 		<div class="colonna_2">
 			<p class="paragrafointro">
-			</p>
+			Negli anni '90, quando i cercapersone erano stati introdotti ad ampia area e venivano utilizzati soprattutto da una generazione più giovane, era stato creato un codice in cui i numeri venivano assegnati per rappresentare ogni lettera dell'alfabeto in modo che i messaggi potessero essere passati utilizzando questo codice.
+			</p>	
 		</div>
-
 		<div class="colonna_2">
-			<p class="paragrafobase">
+			<p class="paragrafointro">
+			Ogni lettera era stata rappresentata utilizzando un numero o una combinazione di numeri. Alcune definizioni numeriche variavano. In seguito ci sarà un elenco di codici predefiniti che rappresentavano varie situazioni e il codice alfabetico creato per scrivere messaggi singolari.
 			</p>
+		<br>
 		</div>
-	</div>
-</div>
 
-<button class="accordion">Sitografia</button>
+		<div class="colonna_3">
+			<h3>Codici di base</h3>
+				<div class="paragrafobase space">
+100)	Disponibile 
+101)	Sii a casa da 
+102)	Portami a 
+103)	Chiama 
+104)	Call collect 
+105)	Annulla 
+106)	Cambia 
+107)	Torna indietro 
+108)	Consegna 
+109)	Dimenticato 
+110)	Vai a 
+111)		Aiuto 
+112)	Lasciando 
+113)	Perso 
+114)	Incontro 
+115)	Bisogno
+116)	No 
+117)	Prendere 
+118)	Riguardo 
+119)	Riprogrammare
+120)	Non disponibile 
+121)	Aspetta 
+122)	Arriverò 
+123)	Non arriverò 
+124)	Sì 
+				</div>
+		</div>	
+		
+		<div class="colonna_3">
+			<h3>Codici di destinazione</h3>
+				<div class="paragrafobase space">
+300)	Aeroporto 
+301)	Parco dei divertimenti 
+302)	Banca 
+303)	Scuola dell'infanzia 
+304)	Chiesa / Tempio 
+305)	Lavanderia 
+306)	Club / Organizzazione 
+307)	Discoteca / Bar 
+308)	Studio Medico / Dentista 
+309)	Casa degli amici 
+310)	Negozio di alimentari 
+311)	Palestra / Centro benessere 
+312)	Casa 
+313)	Ospedale 
+314)	Cantiere 
+315)	Biblioteca 
+316)	Riunione / Appuntamento 
+317)	Film 
+318)	Casa mia 
+319)	Ufficio / Lavoro 
+320)	Parco 
+321)	Partito / attività sociale 
+322)	Luogo / attività discussa 
+323)	Casa del parente 
+324)	Officina riparazioni 
+325)	Ristorante 
+326)	Scuola 
+327)	Centro commerciale 
+328)	Attività sportiva 
+329)	Negozio di video / audio 
+330)	Magazzino 
+331)	Casa tua 
+				</div>
+		</div>
+
+		<div class="colonna_3">
+			<h3>Codici informativi</h3>
+				<div class="paragrafobase space">
+200)	Ad un telefono pubblico 
+201)	Cancella il messaggio precedente 
+202)	Non incontrarmi 
+203)	Spegni il telefono 
+204)	Sto / tutto bene 
+205)	Il lavoro / l'affare è completato 
+206)	Il lavoro / l'affare non è completato 
+207)	Incontriamoci
+208)	Ho bisogno di un passaggio 
+209)	Sto arrivando 
+210)	Telefono che non accetta chiamate 
+211)	Passa a prendermi 
+212)	Passo a prenderti 
+213)	Il problema è stato risolto 
+214)	Ho ricevuto il tuo messaggio 
+215)	In ritardo 
+216)	Bloccato nel traffico 
+217)	Grazie 
+218)	Sto andando via 
+219)	Problema di trasporto 
+220)	Dove sei? 
+221)	Perché non hai chiamato? 
+411)	Informazioni 
+911)	Emergenza 
+				</div>
+		</div>	
+
+		<div class="colonna_3">
+			<h3>Codici articoli / animali</h3>
+				<div class="paragrafobase space"> 
+400)	Alcol / Birra 
+401)	Segreteria telefonica  
+402)	Motocicletta  
+403)	Libri / Riviste  
+404)	Auto / Camion  
+405)	CD / nastri  
+406)	Sigarette  
+407)	Vestiti / Scarpe  
+408)	Carte di credito  
+409)	Agenda  
+410)	Droghe / Medicina  
+412)	Attrezzature / Forniture  
+413)	Fax / Copie  
+414)	Cibo  
+415)	Gas  
+416)	Occhiali / Lenti a contatto  
+417)	Inventario / Prodotto  
+418)	Oggetto discusso  
+419)	Chiavi  
+420)	Posta / pacco 
+421)	Denaro / Assegno  
+422)	Cercapersone  
+423)	Documenti  
+424)	Animale domestico  
+425)	Radio / Stereo  
+426)	Bevande analcoliche  
+427)	Telefono  
+428)	Biglietti  
+429)	Video  
+430)	Portafoglio  
+				</div>
+		</div>	
+				
+		<div class="colonna_3">
+			<h3>Codici orari</h3>
+				<div class="paragrafobase space">
+500)	Dopo 
+501)	In qualsiasi momento 
+502)	Circa 
+503)	Prima 
+504)	Alquanto urgente / prima possibile 
+505)	Ore 
+506)	Sbrigati / Veloce 
+507)	Minuti 
+508)	Questo pomeriggio 
+509)	Questa sera 
+510)	Questa mattina 
+511)	Orario 
+512)	Domani 
+513)	Fino a 
+514)	Ieri 
+				</div>
+		</div>	
+
+		<div class="colonna_3">
+			<h3>Codici famigliari</h3>
+				<div class="paragrafobase space">
+600)	Devi migliorare il tuo atteggiamento
+601)	Buon anniversario / compleanno
+602)	Buona giornata
+603)	Spero che ti senti meglio
+604)	Baci e abbracci
+605)	Non volevo che te ne andassi
+606)	Ti amo
+607)	Mi manchi 
+608)	Sono in debito 
+609)	Sono arrabbiato/a con te 
+610)	Ho paura 
+611)	Mi dispiace 
+612)	Sto pensando a te 
+613)	È tardi torna a casa 
+614)	Ho chiamato solo per salutarti 
+615)	Usciamo 
+616)	Stai lontano per un po' 
+617)	Smettila di chiamarmi 
+618)	Questo è il mio ultimo messaggio 
+619)	Vorrei che fossi qui 
+620)	Sei nei guai 
+621)	Sei il migliore 
+622)	Sei stato incredibile  
+				</div>
+		</div>
+	</div>	
+
+<br>
+<br>
+<br>
+
+<div class="griglia">
+ <div class="colonna_2 testo"> 
+ 	Prova a scoprire il codice alfabetico attraverso la barra sottostante.</div>	
+ <!--
+ <div class="colonna_2 testo"> 
+ 	La barra riesce unicamente a riconoscere le lettere, i numeri e lo spazio.</div> -->
+</div>
+<br>
+<br>
+<br>
+
+<div class="colonna_2">
+				<input type="text"></input>
+				<div id="el1" class="box"></div>
+		</div>
+		<div class="colonna_2">
+		</div>
+
+	</div>
+</div>	
+
+<!--Sitografia-->
+<button class="accordion title">
+    <div class="arrow">Sitografia<img src="img/arrow-down.svg" height="35" width="35"></div>
+</button>
 <div class="panel">
 	<div class="griglia">
 		<div class="colonna_2">
@@ -454,52 +715,160 @@ ingegnere statunitense,
 	</div>
 </div>
 
-<div class="colophon">
+<!--Colophon-->
+	<div class="colophon">
 		<div class="colonna_2">
 			<p class="paragrafobase">
 			</p>
 		</div>
 	</div>
-	<div class="griglia">
-		<div class="colonna_3">
-			<p class="paragrafobase">
-			Atlante tecnologico <br>
-			Dispositivi tecnologici <br>
-			Cercapersone
-			</p>
+		<div class="griglia">
+			<div class="colonna_3">
+				<p class="paragrafobase">
+				Atlante tecnologico <br>
+				Dispositivi tecnologici <br>
+				Cercapersone
+				</p>
+			</div>
+			<div class="colonna_3">
+				<p class="paragrafobase">
+				CV2 <br>
+				Cristina Dominguez Alves <br>
+				SUPSI–Mendrisio
+				</p>
+			</div>
+			<div class="colonna_3">
+				<p class="paragrafobase">
+				Interaction Design <br>
+				Andreas Gysin <br>
+				Giovanni Profeta
+				</p>
+			</div>
 		</div>
-		<div class="colonna_3">
-			<p class="paragrafobase">
-			CV2 <br>
-			Cristina Dominguez Alves <br>
-			SUPSI–Mendrisio
-			</p>
-		</div>
-		<div class="colonna_3">
-			<p class="paragrafobase">
-			Interaction Design <br>
-			Andreas Gysin <br>
-			Giovanni Profeta
-			</p>
-		</div>
-</div>
+
 
 <script type="text/javascript">
-	
-var acc = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
+	/*Audio*/
+	function audio_on_hover(audio_id, target_class) { 
+		let audio = document.getElementById(audio_id); 
+		let audio_players = document.getElementsByClassName(target_class);
+
+ 	   	let i;
+    	for (i = 0; i < audio_players.length; i++) {
+			audio_players[i].addEventListener("mouseenter", playAudio)
+			audio_players[i].addEventListener("mouseleave", stopAudio)
+		};
+
+
+		function playAudio() { 
+			playPromise = audio.play(); 
+		} 
+
+		function stopAudio() { 
+			if (playPromise !== undefined) {
+				playPromise.then(_ => {
+
+					audio.pause(); 
+					audio.currentTime = 0
+				})
+				.catch(error => {
+
+				});
+			}
+		}
+	} 
+
+	audio_on_hover("vibrazione_audio" , "vibrazione")
+	audio_on_hover("luce_audio" , "luce")
+	audio_on_hover("ibrido_audio" , "ibrido")
+
+
+	/*Finestra-freccia*/
+    let acc = document.getElementsByClassName("accordion");
+    let i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+
+ 
+
+            let panel = this.nextElementSibling;
+            let arrow = this.getElementsByTagName('img')[0];
+
+            arrow.style.transform = "rotate(10deg)";
+          
+            if (panel.style.display == "block") {
+              panel.style.display = "none";
+
+
+              arrow.style.transform = "rotate(0deg)";
+
+            } 
+            else {
+              panel.style.display = "block";
+
+              arrow.style.transform = "rotate(180deg)";
+
+            }
+        });
+    } 
+
+
+	/*Codice*/
+		let codice = {
+		'a' : '8',
+		'b' : '8',
+		'c' : '6',
+		'd' : '0',
+		'e' : '3',
+		'f' : '4',
+		'g' : '6',
+		'h' : '4',
+		'i' : '1',
+		'j' : '7',
+		'k' : '15',
+		'l' : '7',
+		'm' : '177',
+		'n' : '17',
+		'o' : '0',
+		'p' : '9',
+		'q' : '0',
+		'r' : '12',
+		's' : '5',
+		't' : '7',
+		'u' : '11',
+		'v' : '11',
+		'w' : '111',
+		'x' : '25',
+		'y' : '4',
+		'z' : '2',
+		'1' : '1',
+		'2' : '2',
+		'3' : '3',
+		'4' : '4',
+		'5' : '5',
+		'6' : '6',
+		'7' : '7',
+		'8' : '8',
+		'9' : '9',
+		'0' : '0',
+		' ' : '*',
+	}
+
+	const input = document.querySelector('input')
+	const output = document.querySelector('.box')
+
+	input.oninput = function(){
+		let parola = input.value.toLowerCase()
+
+		output.innerHTML = ''
+		for (let i=0; i<parola.length; i++) {
+			output.innerHTML += codice[parola[i]] + ' '
+		}
+	}
+
 
 </script>
 
