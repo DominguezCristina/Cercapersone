@@ -227,7 +227,7 @@ border-radius:10px;
 
 .dida
 {
-font-size:150%;
+font-size:100%;
 font-family:Questrial;
 font-weight:350;
 line-height:1;
@@ -237,7 +237,7 @@ white-space:pre;
 .imgstatistica
 {
 width:90%;
-margin-left:-10px;
+margin-left:-20px;
 }
 
 .numeri
