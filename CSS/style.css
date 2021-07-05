@@ -13,6 +13,7 @@ font-family:Questrial;
 font-weight:normal;
 text-align: left;
 display:block;
+margin-bottom:10px;
 }
 
 /*Cover*/
@@ -340,7 +341,7 @@ font-family:monogram;
 /*Footer*/
 .colophon
 {
-margin-top:100px;  
+margin-top:50px;  
 }
 
 .testocolophon {
